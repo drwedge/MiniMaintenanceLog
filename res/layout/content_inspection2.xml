@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tvMileage" android:layout_width="75.0dip" android:layout_height="wrap_content" android:text="@string/mileage" android:layout_alignBottom="@id/etMileage" />
+    <EditText android:id="@id/etMileage" android:layout_width="376.0dip" android:layout_height="wrap_content" android:inputType="text" android:layout_toEndOf="@id/tvMileage" />
+    <TextView android:id="@id/tvInspection2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tvInspection2" android:layout_below="@id/etMileage" />
+    <CheckBox android:id="@id/airFilter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/airFilter" android:layout_below="@id/tvInspection2" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/serpentneBelt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/serpentineBelt" android:layout_below="@id/airFilter" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/brakeFluid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brakeFluid" android:layout_below="@id/serpentneBelt" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/coolant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coolant" android:layout_below="@id/brakeFluid" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/oxygenSensor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oxygenSensor" android:layout_below="@id/coolant" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/sparkPlugs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sparkPlugs" android:layout_below="@id/oxygenSensor" android:layout_alignParentStart="true" />
+</RelativeLayout>

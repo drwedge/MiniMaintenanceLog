@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tvMileage" android:layout_width="75.0dip" android:layout_height="wrap_content" android:text="@string/mileage" android:layout_alignBottom="@id/etMileage" />
+    <EditText android:id="@id/etMileage" android:layout_width="376.0dip" android:layout_height="wrap_content" android:inputType="text" android:layout_toEndOf="@id/tvMileage" />
+    <CheckBox android:id="@id/oilFilter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oilFilter" android:layout_below="@id/etMileage" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/cabinFilter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cabinFilter" android:layout_below="@id/oilFilter" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/brakePads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/brakePads" android:layout_below="@id/parkingBrake" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/brakeRotors" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/brakeRotors" android:layout_below="@id/breakContact" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/breakContact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/breakContact" android:layout_below="@id/greaseHubs" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/greaseHubs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/greaseHubs" android:layout_below="@id/cabinFilter" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/parkingBrake" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/parkingBrake" android:layout_below="@id/brakeRotors" android:layout_alignParentStart="true" />
+    <CheckBox android:id="@id/resetSIL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/resetSIL" android:layout_below="@id/brakePads" android:layout_alignParentStart="true" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.cjbarton.maintenancelog" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.android.cjbarton.maintenancelog.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_oil_chg" android:name="com.android.cjbarton.maintenancelog.OilChgActivity" android:parentActivityName="com.android.cjbarton.maintenancelog.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.cjbarton.maintenancelog.MainActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_inspection1" android:name="com.android.cjbarton.maintenancelog.inspection1Activity" android:parentActivityName="com.android.cjbarton.maintenancelog.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.cjbarton.maintenancelog.MainActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_inspection2" android:name="com.android.cjbarton.maintenancelog.inspection2Activity" android:parentActivityName="com.android.cjbarton.maintenancelog.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.cjbarton.maintenancelog.MainActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_reset_sil" android:name="com.android.cjbarton.maintenancelog.resetSILActivity" android:parentActivityName="com.android.cjbarton.maintenancelog.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.cjbarton.maintenancelog.MainActivity"/>
+        </activity>
+        <activity android:label="@string/title_activity_acknowledgements" android:name="com.android.cjbarton.maintenancelog.acknowledgementsActivity" android:parentActivityName="com.android.cjbarton.maintenancelog.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.cjbarton.maintenancelog.MainActivity"/>
+        </activity>
+    </application>
+</manifest>
